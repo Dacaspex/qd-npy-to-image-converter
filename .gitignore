@@ -1,3 +1,16 @@
+# Environment
+Scripts/*
+Lib/*
+Include/*
+pyvenv.cfg
+
+# pip
+pip-selfcheck.json
+
+# data/output
+data/*
+output/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
