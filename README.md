@@ -2,7 +2,7 @@
 Converts Google's "Quick, Draw!" .npy files to images
 
 ## Summary
-This python script converts the `.npy` data from the [dataset](https://github.com/googlecreativelab/quickdraw-dataset) from the "Quick, Draw!" game made by Google into images
+This python script converts the `.npy` data from the [dataset](https://github.com/googlecreativelab/quickdraw-dataset) from the "Quick, Draw!" game made by Google into images. It takes the `.npy` file from the `data/` folder and outputs the images into the `output/` folder.
 
 ## Install instructions
 ### Windows
@@ -18,7 +18,11 @@ This python script converts the `.npy` data from the [dataset](https://github.co
   ```
   Scripts\activate.bat
   ```
-4. Install packages with pip
+4. Install packages from `requirements.txt` with pip
   ```
-  todo
+  pip install -r requirements.txt
+  ```
+5. Run program
+  ```
+  python import.py
   ```
