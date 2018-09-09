@@ -14,7 +14,7 @@ This python script converts the `.npy` data from the [dataset](https://github.co
   ```
   python -m venv <directory>
   ```
-3. CD into the directory and start the environmet
+3. CD into the directory and start the environment
   ```
   Scripts\activate.bat
   ```
