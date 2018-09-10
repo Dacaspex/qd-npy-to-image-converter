@@ -13,10 +13,10 @@ training_split = 0.95
 
 # Get command line arguments, if present
 if len(sys.argv) == 2:
-    image_limit = sys.argv[1]
+    image_limit = int(sys.argv[1])
 elif len(sys.argv) == 3:
-    image_limit = sys.argv[1]
-    training_split = sys.argv[2]
+    image_limit = int(sys.argv[1])
+    training_split = float(sys.argv[2])
 
 # Start image generation
 start_time = current_milli_time()
