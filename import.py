@@ -50,6 +50,13 @@ for file in os.listdir('./data'):
 
         # Create image
         image_data = data[i].reshape(28, 28)
+
+        # Invert image data
+        for x in range(28):
+            for y in range(28):
+                image_data[x][y] = 255 - image_data[x][y]
+
+        # print(image_data)
         image = Image.fromarray(image_data)
 
         # Determine training or validation folder
